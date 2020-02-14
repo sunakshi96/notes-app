@@ -4,7 +4,9 @@
 // 3. Export getNotes function
 // 4. From app.js load in and call the function printing the message to console
 
+const validator = require('validator');
 const getNotes = require('./notes.js');
 
 const msg = getNotes();
 console.log(msg);
+console.log(validator.isEmail("pinkranger@gmail.com"));

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sunakshi96/notes-app/issues"
   },
-  "homepage": "https://github.com/sunakshi96/notes-app#readme"
+  "homepage": "https://github.com/sunakshi96/notes-app#readme",
+  "dependencies": {
+    "validator": "^12.1.0"
+  }
 }
