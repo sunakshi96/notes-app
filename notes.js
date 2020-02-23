@@ -39,6 +39,11 @@ const loadNotes = function() {
 
 const removeNote = function(title) {
     console.log("Title of removed note:",title);
+    const notes = loadNotes();
+    const notesToKeep = notes.filter(function(note){
+        return note.title !== title;
+    });
+    saveNotes(notesToKeep);
 };
 
 module.exports = {
