@@ -1,9 +1,6 @@
 console.log("utils.js")
 
 const name = "humming snicth";
-const sum = function(a,b){
-    return a+b;
-}
-
+const sum = (a,b) => a+b;
 
 module.exports = sum;
